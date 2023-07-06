@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F23D3D;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin: 100px auto;
+    border: 2px solid #F2F2F2;
+    background-color: #8C2323;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+.form{
+    width: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+#eventName{
+    background-color: #F2EFEB;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+}
+
+#eventDate{
+    background-color: #F2EFEB;
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+}
+
+#bAdd{
+    border: none;
+    background-color: #F2F2F2;
+    padding: 8px;
+    color: #8C2323;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+
+#eventsContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.event{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 2px 10px;
+    border-radius: 6px;
+}
+.days{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+}
+
+.days-number{
+    font-size: 1.6rem;
+}
+
+.days-text{
+    font-size: 0.8rem;
+}
+
+.event-name{
+    width: 100px;
+}
+
+.event-date{
+    width: 100px;
+}
+
+.bDelete{
+    border: none;
+    padding: 6px;
+    background-color: #BF1744;
+    color: #F2EFEB;
+    border-radius: 4px;
+    width: 80px;
+}
